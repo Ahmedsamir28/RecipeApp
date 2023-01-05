@@ -12,4 +12,34 @@ html {
 
 body {
   font-family: "Open Sans", sans-serif;
+}
+
+main {
+  border: 2px solid red;
+}
+main .search {
+  border: 2px solid black;
+  text-align: center;
+  margin-top: 10rem;
+}
+main .search .text h1 {
+  font-size: 40px;
+  text-transform: capitalize;
+}
+main .search .text p {
+  margin-top: -10px;
+  line-height: 2;
+  color: #686868;
+}
+main .search .text p span {
+  text-transform: capitalize;
+  font-style: italic;
+}
+main .search .contain-search {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+main .search .contain-search .search-input {
+  max-width: 500px;
 }/*# sourceMappingURL=main.css.map */
